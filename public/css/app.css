@@ -1,0 +1,273 @@
+/* app.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;  
+}
+
+li {
+    width: 48%; /* Ajuste la valeur selon tes besoins et prend en compte la marge entre les éléments */
+    margin-bottom: 10px; /* Ajoute une marge entre les lignes */
+}
+.section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #264f6d;
+}
+
+ul.actions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.actions li {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Styles spécifiques à la section catégorie */
+.categorie-section {
+    background-color: #d1f2eb;
+}
+
+/* Styles spécifiques à la section tâche */
+.tache-section {
+    background-color: #fdebd0;
+}
+
+/* Titre de la page */
+.titre-page {
+    font-size: 36px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Bouton de soumission */
+button[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+/* Messages d'erreur */
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Liens dans la liste */
+.liste-tache a {
+    color: #3498db;
+}
+
+.liste-tache a:hover {
+    color: #2980b9;
+}
+
+
+/* app.css (ou styles pour la page des catégories) */
+
+.liste-categorie {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categorie {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categorie-nom {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.categorie-couleur {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.categorie-actions {
+    margin-top: 10px;
+}
+
+.categorie-actions a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.categorie-actions a:hover {
+    color: #2980b9;
+}
+
+.categorie-actions form {
+    display: inline;
+    margin: 0;
+}
+
+.categorie-actions button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.categorie-actions button:hover {
+    background-color: #c0392b;
+}
+
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+
+/* app.css (ou styles pour la page des tâches) */
+
+.liste-tache {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tache {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tache-nom {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+.tache-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.tache-categorie {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.tache-actions {
+    margin-top: 10px;
+}
+
+.tache-actions a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.tache-actions a:hover {
+    color: #2980b9;
+}
+
+.tache-actions form {
+    display: inline;
+    margin: 0;
+}
+
+.tache-actions button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tache-actions button:hover {
+    background-color: #c0392b;
+}
+
+
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+}
